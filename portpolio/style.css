@@ -9,7 +9,7 @@
     font-family: 'poppins','sans-serif';
 }
 :root{
-    --bg-color:#1f242d;
+    --bg-color:#08132a;
     --second-bg-color:#323946;
     --text-color:#fff;
     --main-color:#0ef;
@@ -50,7 +50,7 @@ header{
 }
 .logo{
     font-size:2.5rem;
-    color:var(--text-color);
+    color:#0ef;
     font-weight: 500;
     margin-left: 3.5rem;
 }
@@ -82,9 +82,11 @@ header{
     
 }
 #image{
-    size-adjust: 50px;
+    size-adjust: 20px;
     border-radius: 50px;
     display: none;
+    /* height: 800px; */
+    
 }
 .home-content h1{
   font-size: 4.6rem;
@@ -94,9 +96,14 @@ header{
 .home-content h3{
     font-size: 1.6rem;
 }
+.home-content h3 span{
+    color: #0ef;
+}
 .home-image img{
+    margin: 0  150px;
     width: 35vw;
-    border-radius: 50px;
+    border-radius: 30px;
+    height: 500px;
     /* display: none; */
 }
 .social-media a{
@@ -123,24 +130,29 @@ header{
     justify-content: center;
     align-items: center;
     gap:2rem;
-    background: var(--second-bg-color);
+    background: #08132a;
 }
 #about-image img{
-    width: 35vw ;
+    width: 10vw ;
     border-radius: 20%;
 } 
-.heading{
+ .heading{
     text-align: center;
     font-size:4.0rem;
+   
 }
 .about-contents h2{
   text-align: left ;
     line-height: 1.2;
     /* font-size: 3.5rem;
 } */}
+ .about-contents h2 span{
+    color: #0ef;
+ }
 .about-contents h3{
   
     font-size:2.6rem;
+    color: aqua;
    
 }
 .about-contents p{
@@ -277,11 +289,11 @@ h3{
     /* background: linear-gradient(135deg,rgba(236,0,140,1)0%, rgba(252, 103, 103, 1)100%); */
 }
 .html{
-    width: 80%;
+    width: 70%;
     animation: html 3s;
 }
 .css{
-    width: 75%;
+    width: 70%;
     animation: css 3s;
 }
 .javascripts{
@@ -448,6 +460,9 @@ h3{
     font-size: 40px;
     line-height: 1;
     align-items: center;
+}
+.contact-texts h1 span{
+    color: #0ef;
 }
 .contact-texts h3{
     margin: 15px 0;

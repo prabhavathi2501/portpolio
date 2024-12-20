@@ -177,9 +177,9 @@ transition: 2rem ;}
 }
 .head{
     text-align: center;
-    font-size: 30px;
-    padding-bottom: 70px;
-    padding-top: 100px;
+    font-size: 25px;
+    padding-bottom: 20px;
+    padding-top: 40px;
 }
 .head span{
     color: aqua;
@@ -191,8 +191,8 @@ transition: 2rem ;}
  .skill{
     width: 600px;
     height: 500px;
-    /* padding: 70px 90px;
-    margin-left: 100px; */
+     /* padding: 70px 90px;
+    margin-left: 100px;  */
 }
 .heading1{
     text-align: center;
@@ -202,7 +202,7 @@ transition: 2rem ;}
     margin-bottom: 50px;
 }
 .bars{
-    font-size: 18px;
+    font-size: 20px;
 } 
 .tech-bar .bars{
     margin: 40px 0;
@@ -257,7 +257,7 @@ h3{
 }
 .skills{
     width: 800px;
-    height: 700px;
+    height: 630px;
     margin: 60px auto;
     color: #fff;
     padding: 20px;
@@ -271,7 +271,7 @@ h3{
 .bar{
     background-color: #353b48;
     display: block;
-    height: 10px;
+    height: 8px;
     border:1px solid rgba(0red, 0green, 0blue, 0.3alpha);
     border-radius: 10px;
     overflow: hidden;
@@ -378,9 +378,9 @@ h3{
     margin-top: 200px; */
  
 .pro-centent{
-    padding-top: 60px;
+    padding-top: 80px;
     margin-bottom: 20px;
-    font-size: 40px;
+    font-size: 30px;
     line-height: 1;
     text-align: center;
 }
@@ -392,7 +392,7 @@ h3{
     padding-top: 20px;
     padding-bottom: 20px;
     display: grid;
-    grid-template-columns: repeat(auto-fit,minmax(359px,auto));
+    grid-template-columns: repeat(auto-fit,minmax(200px,auto));
 }
 .row{
     position: relative;
@@ -401,15 +401,19 @@ h3{
     cursor: pointer;
 }
 .row img{
-    width: 80%;
+    width: 90%;
     height: 100%;
-    padding-top: 40px;
+    padding-top: 50px;
     border-radius: 8px;
     display: block;
     transition: transform 0.5s;
+    gap:20px;
+}
+.fsd{
+    background-color: #fff;
 }
 .layer{
-    width: 100%;
+    width: 80%;
     height: 20%;
   
 

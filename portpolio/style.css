@@ -552,3 +552,10 @@ h3{
     padding: 20px 0;
     color: rgb(198, 180, 180)
 }
+
+@media  screen and(min-width:600px) {
+    .header{
+        font:30px
+    }
+    
+}

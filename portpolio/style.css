@@ -389,10 +389,10 @@ h3{
    
 }
 .Portpolio-content{
-    padding-top: 20px;
+    padding-top: 0px;
     padding-bottom: 20px;
     display: grid;
-    grid-template-columns: repeat(auto-fit,minmax(200px,auto));
+    grid-template-columns: repeat(auto-fit,minmax(300px,auto));
 }
 .row{
     position: relative;
@@ -558,4 +558,19 @@ h3{
         font:30px
     }
     
+}
+
+.hh{
+    color: white;
+}
+.code{
+    display: flex;
+  gap:6px;
+  padding: 10px 10px;
+}
+.layer h3{
+    margin-left: 90px;
+}
+.layer p{
+   padding-left: 10px;
 }
